@@ -17,8 +17,8 @@ echo "> OrgId: $1"
 # Replacing ORG_ID_TOKEN inside pom.xml with OrgId value provided from command line
 echo "Replacing OrgId token..."
 
-echo sed -i.bkp "s/ORG_ID_TOKEN/$1/g" json-logger/pom.xml
-sed -i.bkp "s/ORG_ID_TOKEN/$1/g" json-logger/pom.xml
+echo sed -i.bkp "s/ORG_ID_TOKEN/$1/g" pom.xml
+sed -i.bkp "s/ORG_ID_TOKEN/$1/g" pom.xml
 
 # Deploying to Exchange
 echo "Deploying to Exchange..."
