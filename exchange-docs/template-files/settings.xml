@@ -24,27 +24,6 @@
 
   <profiles>
     <profile>
-      <id>mule-extra-repos</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-
-      <repositories>
-        <repository>
-          <id>mule-public</id>
-          <url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
-        </repository>
-      </repositories>
-
-      <pluginRepositories>
-        <pluginRepository>
-          <id>mule-public</id>
-          <url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
-        </pluginRepository>
-      </pluginRepositories>
-    </profile>
-
-    <profile>
       <id>Mule</id>
       <activation>
         <activeByDefault>true</activeByDefault>
@@ -78,6 +57,51 @@
         </repository>
       </repositories>
 
+      <repository>
+					<id>Alpargatas-emea-repository</id>
+					<name>MuleSof Alpargatas Repository</name>
+					<url>https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/4ea3d564-b9e4-487e-8dee-1c8c43aa923d/maven</url>
+					<layout>default</layout>
+				</repository>
+				<repository>
+					<id>anypoint-exchange-v2</id>
+					<name>Anypoint Exchange</name>
+					<url>https://maven.eu1.anypoint.mulesoft.com/api/v2/maven</url>
+					<layout>default</layout>
+				</repository>
+				<repository>
+					<id>mulesoft-releases</id>
+					<name>MuleSoft Releases Repository</name>
+					<url>https://repository.mulesoft.org/releases/</url>
+					<layout>default</layout>
+				</repository>
+				<repository>
+					<id>anypoint-exchange-v3</id>
+					<name>Anypoint Exchange V3</name>
+					<url>https://maven.eu1.anypoint.mulesoft.com/api/v3/maven</url>
+					<layout>default</layout>
+				</repository>
+    </profile>
+    
+    <profile>
+      <id>mule-extra-repos</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+
+      <repositories>
+        <repository>
+          <id>mule-public</id>
+          <url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
+        </repository>
+      </repositories>
+
+      <pluginRepositories>
+        <pluginRepository>
+          <id>mule-public</id>
+          <url>https://repository.mulesoft.org/nexus/content/repositories/public</url>
+        </pluginRepository>
+      </pluginRepositories>
     </profile>
   </profiles>
 </settings>

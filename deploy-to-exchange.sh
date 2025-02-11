@@ -23,11 +23,11 @@ sed -i.bkp "s/ORG_ID_TOKEN/$1/g" pom.xml
 # Deploying to Exchange
 echo "Deploying to Exchange..."
 
-echo mvn -f json-logger/pom.xml clean deploy -s exchange-docs/template-files/settings.xml
-mvn -f json-logger/pom.xml clean deploy -s exchange-docs/template-files/settings.xml
+echo mvn -f pom.xml clean deploy -s exchange-docs/template-files/settings.xml
+mvn -f pom.xml clean deploy -s exchange-docs/template-files/settings.xml
 
 if [ $? != 0 ]
 then
-  echo "[ERROR] Failed deploying json-logger to Exchange"
+  echo "[ERROR] Failed deploying json-logger-java17 to Exchange"
   exit 1
 fi
