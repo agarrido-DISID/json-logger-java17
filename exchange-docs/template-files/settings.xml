@@ -2,20 +2,20 @@
 <settings>
   <servers>
     <server>
-      <id>Exchange2</id>
-      <username>ANYPOINT_USERNAME</username>
-      <password>ANYPOINT_PASSWORD</password>
-    </server>
-    <server>
-      <id>anypoint-exchange-v3</id>
-      <username>ANYPOINT_USERNAME</username>
-      <password>ANYPOINT_PASSWORD</password>
-    </server>
-    <server>
-      <id>MuleRepository</id>
-      <username>CUSTOMER_EE_REPO_USERNAME</username>
-      <password>CUSTOMER_EE_REPO_PASSWORD</password>
-    </server>
+			<id>Alpargatas-emea-repository</id>
+			<username>~~~Client~~~</username>
+      <password>9f4ac6b15b7343f9ab2dbdc59f33c4f1~?~6cB96353efC6413991c252a48EbF0FF7</password>
+		</server>
+		<server>
+			<id>anypoint-exchange-v2</id>
+			<username>agarrido_DISID_ALPARGATAS_2</username>
+			<password>4G4RRiD0_DiSiD!0#</password>
+		</server>
+		<server>
+			<id>anypoint-exchange-v3</id>
+			<username>lagarrido_DISID_ALPARGATAS_2</username>
+			<password>4G4RRiD0_DiSiD!0#</password>
+		</server>
   </servers>
 
   <pluginGroups>
