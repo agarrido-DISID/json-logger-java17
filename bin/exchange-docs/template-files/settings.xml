@@ -65,7 +65,7 @@
           <id>Alpargatas-emea-repository</id>
           <name>MuleSof Alpargatas Repository</name>
           <url>
-            https://maven.eu1.anypoint.mulesoft.com/api/v2/organizations/4ea3d564-b9e4-487e-8dee-1c8c43aa923d/maven</url>
+            https://maven.eu1.anypoint.mulesoft.com/api/v3/organizations/4ea3d564-b9e4-487e-8dee-1c8c43aa923d/maven</url>
           <layout>default</layout>
         </repository>
         <repository>
